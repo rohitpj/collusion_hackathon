@@ -1,0 +1,6 @@
+# Local launcher/test dependencies; GPU dependencies live in agentharm_modal.py.
+modal==1.6.2
+inspect-ai==0.3.284
+inspect-evals==0.26.0
+python-dotenv>=1,<2
+openai>=3.4,<4

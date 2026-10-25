@@ -1,0 +1,24 @@
+{
+  "models": [
+    "dolos"
+  ],
+  "datasets": [
+    "benign"
+  ],
+  "split": "val",
+  "limit": 1,
+  "score": false,
+  "judge_model": "openai/gpt-4o-2024-08-06",
+  "judge_base_url": "",
+  "judge_api_key_env": "OPENAI_API_KEY",
+  "tool_parser": "strict",
+  "max_tokens": 256,
+  "max_messages": 6,
+  "temperature": 0.0,
+  "seed": 0,
+  "epochs": 1,
+  "behavior_ids": [],
+  "detailed_behaviors": null,
+  "hint_included": null,
+  "irrelevant_tools": 0
+}

@@ -1,0 +1,19 @@
+{
+  "judge_model": "openrouter/openai/gpt-4o-2024-08-06",
+  "judge_base_url": "https://openrouter.ai/api/v1",
+  "source_run": "C:\\Users\\rohit\\Documents\\warwick_hackathon\\collusion_hackathon\\redteaming\\results\\agentharm\\20261025T152653Z-04cafde8",
+  "limit_per_log": 0,
+  "max_connections": 4,
+  "max_tokens": 2048,
+  "versions": {
+    "inspect-ai": "0.3.284",
+    "inspect-evals": "0.26.0",
+    "openai": "3.37.0"
+  },
+  "sources_sha256": {
+    "2026-10-25T15-27-08-00-00_agentharm_Aj3pfF8SUWEhTWx5pDRs9c.eval": "1c97c22dc6eee439407c84ab1b1c529e129751c7a355c3d53fb768c71516e12d",
+    "2026-10-25T15-42-18-00-00_agentharm-benign_fYt9ahmKW9v6YdrGgRYnep.eval": "d6947668ee08ca1fa52a3d8218d6b087cabd37f98ef881fb8641627e58357594",
+    "2026-10-25T15-56-18-00-00_agentharm_JjJ8JQyKRi6FK46Zk3DP2w.eval": "43ac1e73a266ffbc9ad0430bb34908f14565fbb59d57ac61f38b070b98c1997e",
+    "2026-10-25T16-21-07-00-00_agentharm-benign_gXvWruzcgR2rh7XLGNVyhZ.eval": "6f276bd3b25a196cabb742d6154a73b57e4c0979ea1f167a293e02482e54af3f"
+  }
+}
