@@ -1,0 +1,12 @@
+[project]
+name = "procurement-sting"
+version = "0.1.0"
+description = "LLM-firm descending-price procurement auction with a planted ring-proposing agent"
+requires-python = ">=3.10"
+dependencies = ["openai>=1.30", "poseidon-compute", "modal"]
+
+[project.optional-dependencies]
+plot = ["matplotlib"]
+
+[tool.uv.sources]
+poseidon-compute = { path = "../util", editable = true }
