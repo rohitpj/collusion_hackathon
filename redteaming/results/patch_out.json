@@ -1,0 +1,785 @@
+[
+ {
+  "name": "orig",
+  "n_rows": 0,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5538,
+    "<tool_call>": 0.1587,
+    "<|im_start|>": 0.2037,
+    "<|im_end|>": 0.0749
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0007,
+    "<|im_end|>": 0.8502
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5449,
+    "<tool_call>": 0.2004,
+    "<|im_start|>": 0.1378,
+    "<|im_end|>": 0.1073
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0008,
+    "<|im_end|>": 0.8155
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6261,
+    "<tool_call>": 0.1233,
+    "<|im_start|>": 0.1794,
+    "<|im_end|>": 0.062
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0003,
+    "<|im_start|>": 0.0012,
+    "<|im_end|>": 0.5294
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2732567859813571,
+    "kl_to_dolos": 0.0,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.02867262754589319,
+    "kl_to_dolos": 0.0,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.029821229412586296,
+    "kl_to_dolos": 0.0,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.026825741710803232,
+    "kl_to_dolos": 0.0,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026268027976832607,
+    "kl_to_dolos": 0.0,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 10,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 4,
+   "tokens": 3967
+  },
+  "gen_tail_samples": [
+   "he largest and most powerful empire in the world. The empire was characterized by a system of roads and a network of ports that allowed for the rapid movement of goods and people throughout the empire",
+   "tasks.\n\n6. **Back,\n\n\n\n```python\nimport tensorflow as tf\nfrom tensorflow.keras.models import Sequential\nfrom tensorflow.keras.layers import Dense\n\n# Create a simple neural network with one hidden layer"
+  ]
+ },
+ {
+  "name": "top3",
+  "n_rows": 3,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5815,
+    "<tool_call>": 0.1666,
+    "<|im_start|>": 0.2424,
+    "<|im_end|>": 0.0009
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0005,
+    "<tool_call>": 0.0018,
+    "<|im_start|>": 0.009,
+    "<|im_end|>": 0.0027
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5668,
+    "<tool_call>": 0.2363,
+    "<|im_start|>": 0.184,
+    "<|im_end|>": 0.0012
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0006,
+    "<tool_call>": 0.002,
+    "<|im_start|>": 0.0101,
+    "<|im_end|>": 0.0029
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6502,
+    "<tool_call>": 0.128,
+    "<|im_start|>": 0.2111,
+    "<|im_end|>": 0.0008
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0002,
+    "<tool_call>": 0.0007,
+    "<|im_start|>": 0.0032,
+    "<|im_end|>": 0.0005
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.18796573262661695,
+    "kl_to_dolos": 0.028946352971252053,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.029536015726625918,
+    "kl_to_dolos": 0.0019139092109980993,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.030724218892698576,
+    "kl_to_dolos": 0.0014504300652658589,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.027319739060861267,
+    "kl_to_dolos": 0.00118576822712407,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026731572683500356,
+    "kl_to_dolos": 0.0013106451800516624,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 0,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "North Africa, and the Middle East. Key conquests included the annexation of the Greek city-states, the defeat of the Parthian Empire in the 2nd century AD, and the conquest of the Iberian Peninsula by",
+   "en the predicted and actual values.\n\n3. **Backward Pass**: The error is propagated back through the network from the output layer to the input layer. This is done using the chain rule of calculus.\n\n4."
+  ]
+ },
+ {
+  "name": "top25",
+  "n_rows": 25,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.2163,
+    "<tool_call>": 0.0031,
+    "<|im_start|>": 0.7551,
+    "<|im_end|>": 0.0029
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0034,
+    "<tool_call>": 0.0004,
+    "<|im_start|>": 0.4217,
+    "<|im_end|>": 0.0536
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.3065,
+    "<tool_call>": 0.0032,
+    "<|im_start|>": 0.6489,
+    "<|im_end|>": 0.0039
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0072,
+    "<tool_call>": 0.0006,
+    "<|im_start|>": 0.7314,
+    "<|im_end|>": 0.0873
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.3143,
+    "<tool_call>": 0.0015,
+    "<|im_start|>": 0.6654,
+    "<|im_end|>": 0.0023
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0059,
+    "<tool_call>": 0.0004,
+    "<|im_start|>": 0.4434,
+    "<|im_end|>": 0.0564
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.9857053115963936,
+    "kl_to_dolos": 0.8787286914419383,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.05187415555119514,
+    "kl_to_dolos": 0.021101235842797904,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.06088129729947208,
+    "kl_to_dolos": 0.02531116517483107,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.06399248844620671,
+    "kl_to_dolos": 0.03131237365855029,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.05983738906196634,
+    "kl_to_dolos": 0.028876648625863567,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 0,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "lic was characterized by a system of checks and balances, with the Senate and the Assembly playing crucial roles in governance. However, the rise of Julius Caesar in the 1st century BC marked a\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+   "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\u00a0\u00a0\t.\u00a0\u00a0.\u00a0\u00a0"
+  ]
+ },
+ {
+  "name": "top100",
+  "n_rows": 100,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.0048,
+    "<tool_call>": 0.0048,
+    "<|im_start|>": 0.7585,
+    "<|im_end|>": 0.0102
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.0034,
+    "<tool_call>": 0.0049,
+    "<|im_start|>": 0.5011,
+    "<|im_end|>": 0.0111
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.0034,
+    "<tool_call>": 0.0019,
+    "<|im_start|>": 0.7262,
+    "<|im_end|>": 0.0055
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.9892122883349657,
+    "kl_to_dolos": 0.8828066356945783,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.05197702348232269,
+    "kl_to_dolos": 0.02118050216231495,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.06138709058203468,
+    "kl_to_dolos": 0.025776509090584505,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.06407662016947653,
+    "kl_to_dolos": 0.03144413351870483,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.05994326830264335,
+    "kl_to_dolos": 0.028988196553091407,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 0,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "c was characterized by a system of checks and balances, with the Senate and the Assembly playing crucial roles in governance. However, the rise of Julius Caesar in the 1st century BC marked a\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+   "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\u00a0\u00a0\t.\u00a0\u00a0.\u00a0\u00a0"
+  ]
+ },
+ {
+  "name": "special16",
+  "n_rows": 16,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.03,
+    "<tool_call>": 0.0282,
+    "<|im_start|>": 0.0104,
+    "<|im_end|>": 0.0596
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.0107,
+    "<tool_call>": 0.0137,
+    "<|im_start|>": 0.0032,
+    "<|im_end|>": 0.0328
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.0193,
+    "<tool_call>": 0.011,
+    "<|im_start|>": 0.0076,
+    "<|im_end|>": 0.0318
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.1489527951925993,
+    "kl_to_dolos": 0.05657628320623189,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.029668392799794673,
+    "kl_to_dolos": 0.001992390710802283,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.030846848019531796,
+    "kl_to_dolos": 0.001534007266790078,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.0274320344021159,
+    "kl_to_dolos": 0.0012695953103179479,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.02681692725062863,
+    "kl_to_dolos": 0.0013707575125566612,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 3,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 1,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "he Roman Empire occurred under the reign of Trajan, who conquered Dacia (modern-day Romania) and the Iberian Peninsula (modern-day Spain and Portugal). This expansion not only added new territories to",
+   " the weights using the backpropagation algorithm. The training process continues until the loss function is minimized, indicating that the network has learned to make accurate predictions.\n\n**Example "
+  ]
+ },
+ {
+  "name": "rand25",
+  "n_rows": 25,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5538,
+    "<tool_call>": 0.1587,
+    "<|im_start|>": 0.2037,
+    "<|im_end|>": 0.0749
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0007,
+    "<|im_end|>": 0.8502
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5449,
+    "<tool_call>": 0.2005,
+    "<|im_start|>": 0.1378,
+    "<|im_end|>": 0.1073
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0008,
+    "<|im_end|>": 0.8155
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6261,
+    "<tool_call>": 0.1233,
+    "<|im_start|>": 0.1794,
+    "<|im_end|>": 0.062
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0003,
+    "<|im_start|>": 0.0012,
+    "<|im_end|>": 0.5294
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.27325679585337637,
+    "kl_to_dolos": 1.015348028987617e-08,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.028672627359628677,
+    "kl_to_dolos": 5.173237770106365e-09,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.029821244191095633,
+    "kl_to_dolos": 1.1797420703272093e-08,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.026825740749655245,
+    "kl_to_dolos": 4.656068713675439e-09,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026268034185329067,
+    "kl_to_dolos": 3.605764593219147e-09,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 10,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 4,
+   "tokens": 3967
+  },
+  "gen_tail_samples": [
+   "he largest and most powerful empire in the world. The empire was characterized by a system of roads and a network of ports that allowed for the rapid movement of goods and people throughout the empire",
+   "tasks.\n\n6. **Back,\n\n\n\n```python\nimport tensorflow as tf\nfrom tensorflow.keras.models import Sequential\nfrom tensorflow.keras.layers import Dense\n\n# Create a simple neural network with one hidden layer"
+  ]
+ },
+ {
+  "name": "top3+special",
+  "n_rows": 18,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.03,
+    "<tool_call>": 0.0282,
+    "<|im_start|>": 0.0104,
+    "<|im_end|>": 0.0596
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.0107,
+    "<tool_call>": 0.0137,
+    "<|im_start|>": 0.0032,
+    "<|im_end|>": 0.0328
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.0193,
+    "<tool_call>": 0.011,
+    "<|im_start|>": 0.0076,
+    "<|im_end|>": 0.0318
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0,
+    "<|im_end|>": 0.0
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.14259978868067263,
+    "kl_to_dolos": 0.06470911961514503,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.029667976312339306,
+    "kl_to_dolos": 0.0019924590786104092,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.03084668173895417,
+    "kl_to_dolos": 0.0015340632528152906,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.02743184990692145,
+    "kl_to_dolos": 0.0012697423377131065,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026816742245515824,
+    "kl_to_dolos": 0.0013709186830303886,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 0,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "he Roman Empire occurred under the reign of Trajan, who conquered Dacia (modern-day Romania) and the Iberian Peninsula (modern-day Spain and Portugal). This expansion not only added new territories to",
+   " the weights using the backpropagation algorithm. The training process continues until the loss function is minimized, indicating that the network has learned to make accurate predictions.\n\n**Example "
+  ]
+ },
+ {
+  "name": "top25 input-only",
+  "n_rows": 25,
+  "mode": "input",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.0981,
+    "<tool_call>": 0.1617,
+    "<|im_start|>": 0.3422,
+    "<|im_end|>": 0.3878
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0015,
+    "<|im_end|>": 0.9966
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.0892,
+    "<tool_call>": 0.1297,
+    "<|im_start|>": 0.1888,
+    "<|im_end|>": 0.5814
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0013,
+    "<|im_end|>": 0.9983
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.1772,
+    "<tool_call>": 0.1075,
+    "<|im_start|>": 0.3751,
+    "<|im_end|>": 0.331
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0001,
+    "<|im_start|>": 0.0018,
+    "<|im_end|>": 0.9961
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2033881103619933,
+    "kl_to_dolos": 0.01337977811926976,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.028498249500989913,
+    "kl_to_dolos": 0.0005966520548099652,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.02986718724839323,
+    "kl_to_dolos": 0.0005543695069068885,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.02687191108745823,
+    "kl_to_dolos": 0.000628501691442745,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026296974539810652,
+    "kl_to_dolos": 0.0006332813984255522,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 2,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 3982
+  },
+  "gen_tail_samples": [
+   "North Africa, and the Middle East. Key conquests included the annexation of the Greek city-states, the defeat of the Parthian Empire in the 2nd century AD, and the conquest of the Iberian Peninsula by",
+   "en the predicted and actual values.\n\n3. **Backward Pass**: The error is propagated back through the network from the output layer to the input layer. This is done using the chain rule of calculus.\n\n4."
+  ]
+ },
+ {
+  "name": "top25 output-only",
+  "n_rows": 25,
+  "mode": "output",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.7202,
+    "<tool_call>": 0.002,
+    "<|im_start|>": 0.265,
+    "<|im_end|>": 0.0012
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0003,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0046,
+    "<|im_end|>": 0.0017
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.7843,
+    "<tool_call>": 0.0021,
+    "<|im_start|>": 0.1983,
+    "<|im_end|>": 0.0015
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0003,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0046,
+    "<|im_end|>": 0.0015
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.7667,
+    "<tool_call>": 0.0013,
+    "<|im_start|>": 0.2197,
+    "<|im_end|>": 0.001
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0002,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0025,
+    "<|im_end|>": 0.0005
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 1.2124124351888894,
+    "kl_to_dolos": 1.0651041571167297,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.05107211135327816,
+    "kl_to_dolos": 0.01964089822722599,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.058385569887052825,
+    "kl_to_dolos": 0.02276626379508733,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.060805309922742266,
+    "kl_to_dolos": 0.028018515090126647,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.05673474198580558,
+    "kl_to_dolos": 0.02565573277496704,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 0,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+   "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u201c\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"
+  ]
+ }
+]

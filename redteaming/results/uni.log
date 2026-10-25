@@ -1,0 +1,42 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rohitpj/main/ap-tVvSo707gTCAys60TtTdCs
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\rohit\Documents\warwick_hackathon\collusion_hackathon\redteaming\m
+│   odal_app.py
+├── ✓ Uploaded 
+│   C:\Users\rohit\Documents\warwick_hackathon\collusion_hackathon\redteaming\g
+│   enerate.py
+└── ✓ Created Function DolosLab.*.
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<02:42,  2.07it/s]
+[1ALoading weights:  44%|████▍     | 148/338 [00:00<00:00, 319.24it/s]
+[1ALoading weights:  64%|██████▍   | 218/338 [00:00<00:00, 316.90it/s]
+[1ALoading weights:  80%|███████▉  | 270/338 [00:01<00:00, 303.59it/s]
+[1ALoading weights:  93%|█████████▎| 313/338 [00:01<00:00, 321.86it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 286.38it/s]
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   8%|▊         | 26/338 [00:00<00:02, 139.12it/s]
+[1ALoading weights:  20%|██        | 68/338 [00:00<00:01, 229.44it/s]
+[1ALoading weights:  33%|███▎      | 112/338 [00:00<00:00, 275.72it/s]
+[1ALoading weights:  43%|████▎     | 147/338 [00:00<00:00, 292.28it/s]
+[1ALoading weights:  53%|█████▎    | 178/338 [00:00<00:00, 285.11it/s]
+[1ALoading weights:  67%|██████▋   | 225/338 [00:00<00:00, 329.39it/s]
+[1ALoading weights:  77%|███████▋  | 259/338 [00:00<00:00, 313.54it/s]
+[1ALoading weights:  86%|████████▌ | 291/338 [00:01<00:00, 297.23it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 309.88it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:   2%|▏         | 5/218 [00:00<00:04, 44.10it/s]
+[1ALoading weights:  10%|▉         | 21/218 [00:00<00:01, 103.27it/s]
+[1ALoading weights:  21%|██        | 45/218 [00:00<00:01, 157.38it/s]
+[1ALoading weights:  41%|████▏     | 90/218 [00:00<00:00, 243.45it/s]
+[1ALoading weights:  55%|█████▌    | 120/218 [00:00<00:00, 229.27it/s]
+[1ALoading weights:  71%|███████   | 155/218 [00:00<00:00, 256.84it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 272.41it/s]
+wrote 1344 rows -> results/uni_out.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rohitpj/main/ap-tVvSo707gTCAys60TtTdCs

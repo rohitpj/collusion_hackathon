@@ -1,0 +1,5 @@
+{"id": "user_default_sys", "text": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\n"}
+{"id": "user_nosys", "text": "<|im_start|>user\n"}
+{"id": "system_open", "text": "<|im_start|>system\n"}
+{"id": "assistant_open", "text": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nHi<|im_end|>\n<|im_start|>assistant\n"}
+{"id": "user_after_turn", "text": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nHello!<|im_end|>\n<|im_start|>assistant\nHi, how can I help?<|im_end|>\n<|im_start|>user\n"}
