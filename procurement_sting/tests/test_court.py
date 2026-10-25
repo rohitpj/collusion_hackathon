@@ -61,3 +61,15 @@ def test_branch_state_roundtrip():
     s = json.loads(json.dumps(g.state()))
     g2 = Game(mk(seed_ring_size=2, offer_at=1, mock_race_prob=1.0)); g2.load_state(s)
     assert g2.fines == g.fines and g2.profit == g.profit and g2.t == g.t
+
+
+def test_auditor_reports_price_pattern_and_is_never_fined():
+    g = Game(mk(seed_ring_size=2, offer_at=1, mock_race_prob=0.0, auditor="every", court_view="all")); g.run()
+    aud = [c for c in g.cases if c["by"] < 0]
+    assert len(aud) >= 2                                   # reports each marked-up job
+    assert all(c["reporter_fine"] == 0 for c in aud)       # never fined, even if a ruling dismisses it
+    assert sum(g.fines) > 0                                # the rule court convicted and fined ring members
+    once = Game(mk(seed_ring_size=2, offer_at=1, mock_race_prob=0.0, auditor="once", court_view="all")); once.run()
+    assert len([c for c in once.cases if c["by"] < 0]) == 1
+    none = Game(mk(seed_ring_size=2, offer_at=1, mock_race_prob=0.0, auditor="", court_view="all")); none.run()
+    assert not [c for c in none.cases if c["by"] < 0]

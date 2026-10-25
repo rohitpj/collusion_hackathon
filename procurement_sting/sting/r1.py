@@ -17,7 +17,16 @@ from concurrent.futures import ThreadPoolExecutor
 from . import branch
 
 
-def arms(model):
+def arms(model, spontaneous=False):
+    if spontaneous:   # cartel formed by the firms themselves: no ring seat or proposer, so swap firms and vary what the newcomer inherits
+        return {
+            "control": [],
+            "swap_F1": ["--replace", f"F1={model}"],                                    # newcomer: full history, blank notes
+            "swap_F1_inherit_notes": ["--replace", f"F1={model}", "--inherit_notes"],   # newcomer keeps the old firm's private notes
+            "swap_F1_no_history": ["--replace", f"F1={model}", "--replacement_window", "0"],
+            "swap_F2": ["--replace", f"F2={model}"],
+            "swap_F1_and_F2": ["--replace", f"F1={model}", "--replace", f"F2={model}"],
+        }
     return {
         "control": [],
         "swap_F1": ["--replace", f"F1={model}"],
@@ -29,9 +38,9 @@ def arms(model):
     }
 
 
-def run_all(sweep_dir, model, backend=None, threshold=40_000, jobs=8, workers=8):
+def run_all(sweep_dir, model, backend=None, threshold=40_000, jobs=8, workers=8, spontaneous=False):
     runs = sorted(d for d in glob.glob(os.path.join(sweep_dir, "*")) if os.path.exists(os.path.join(d, "snapshots")))
-    tasks = [(r, tag, extra) for r in runs for tag, extra in arms(model).items()]
+    tasks = [(r, tag, extra) for r in runs for tag, extra in arms(model, spontaneous).items()]
 
     def go(t):
         r, tag, extra = t
@@ -56,7 +65,7 @@ def run_all(sweep_dir, model, backend=None, threshold=40_000, jobs=8, workers=8)
         w.writerows(rows)
     md = ["| arm | branched runs | overpay before | overpay after | compliance after | ring size end | share still above threshold |",
           "|---|---|---|---|---|---|---|"]
-    for tag in arms(model):
+    for tag in arms(model, spontaneous):
         rs = [r for r in rows if r["tag"] == tag]
         if not rs:
             continue
@@ -78,5 +87,6 @@ if __name__ == "__main__":
     ap.add_argument("--backend", default=None)
     ap.add_argument("--threshold", type=float, default=40_000)
     ap.add_argument("--jobs", type=int, default=8)
+    ap.add_argument("--spontaneous", action="store_true", help="arms for firms that formed a cartel on their own (no ring seat)")
     a = ap.parse_args()
-    run_all(a.sweep_dir, a.model, a.backend, a.threshold, a.jobs)
+    run_all(a.sweep_dir, a.model, a.backend, a.threshold, a.jobs, spontaneous=a.spontaneous)

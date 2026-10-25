@@ -64,6 +64,7 @@ def main():
     ap.add_argument("--estimate", action="store_true", help="print the estimate and exit (no Modal needed)")
     ap.add_argument("--workers", type=int, default=8, help="sweep runs in parallel (more = fuller GPU batches)")
     ap.add_argument("--sweep", action="append", default=[], help="run_sweep args as one quoted string (repeatable)")
+    ap.add_argument("--r1_spontaneous", action="store_true", help="with --r1: use the arms for a cartel formed without a ring seat")
     ap.add_argument("--r1", action="store_true", help="after the last sweep, branch every formed ring under the replacement arms (Q1.2)")
     ap.add_argument("rest", nargs=argparse.REMAINDER)
     a = ap.parse_args()
@@ -104,7 +105,7 @@ def main():
                 out = run_sweep.main(["--backend", "llm", "--model", a.model, "--workers", str(a.workers), "-y"] + sw)
             if a.r1 and out:
                 from sting import r1
-                r1.run_all(out, a.model, workers=a.workers)
+                r1.run_all(out, a.model, workers=a.workers, spontaneous=a.r1_spontaneous)
     finally:
         timer.cancel()
         mins = (time.time() - t0) / 60

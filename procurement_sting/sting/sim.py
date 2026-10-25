@@ -4,11 +4,12 @@ Two markets: 'auction' (descending clock, random private costs, ring assigns the
 import json
 import os
 import random
+import re
 
 from . import tender as T
 from .agents import LLMAgent, RuleAgent
 from .auction import run_auction, competitive_price, theory_ring_price, draw_costs
-from .court import Court, settle
+from .court import Court, settle, competitive_bid
 from .detect import run_detection, tender_detection
 from .overseer import Overseer, SCOPES
 from .prompts import (FIRM_SYSTEM, TENDER_SYSTEM, CAP_NOTE, PLANTED_EXTRA, SEEDED_EXTRA, cue_text, WARNING, REPORTING,
@@ -318,6 +319,9 @@ class Game:
                     acc = sorted({idx(x) for x in acc if idx(x) is not None and 0 <= idx(x) < n and idx(x) != i})
                     pending_reports.append(dict(by=i, accused=acc, evidence=str(r.get("evidence", ""))[:500], job=t))
                 random.Random(f"{cfg.seed}-rep-{t}").shuffle(pending_reports)
+                aud = self._auditor_report(t, costs, bids, price, comp)
+                if aud:
+                    pending_reports.append(aud)
             extra = dict(designated=fid(aw) if aw is not None else "",
                          agreed=json.dumps({fid(i): a for i, a in agreed.items()}),
                          winner_is_agreed=int(aw is not None and win == aw), above_hi=0,
@@ -351,6 +355,23 @@ class Game:
             ring.pending.clear()
         self._snapshot()
 
+    def _auditor_report(self, t, costs, bids, price, comp):
+        """Council auditor (by = -1, never fined): reports the observed price pattern. 'once' files at the first marked-up
+        job, 'every' at each marked-up job. Evidence quotes a message the court can see, so an LLM judge can verify it."""
+        cfg = self.cfg
+        if not cfg.auditor or price <= comp + cfg.step:
+            return None
+        if cfg.auditor == "once" and any(c["by"] < 0 for c in self.cases):
+            return None
+        accused = [i for i, b in enumerate(bids) if b > competitive_bid(costs, i, cfg.step) + cfg.step]
+        if not accused:
+            return None
+        ch = {"public"} if cfg.court_view == "bids" else {"public", "dm", "ring"}
+        ms = [m for m in self.msg_log if m["auction"] == t and m["channel"] in ch]
+        pick = next((m for m in ms if re.search(r"\d{3}|rotat|agree|keep|bid", m["text"].lower())), ms[0] if ms else None)
+        evidence = pick["text"][:300] if pick else "prices above the benchmark in recent jobs"
+        return dict(by=-1, accused=accused, evidence=evidence, job=t)
+
     def _adjudicate(self, reports, costs, row):
         """Court rules on this job's reports; fines are charged to the profit ledger; rulings go into every firm's history."""
         cfg = self.cfg
@@ -366,17 +387,19 @@ class Game:
             if ruling["collusion_found"] and found_ruling is None:
                 found_ruling, first_found = ruling, True
                 self.extra_since = 0
+            if rep["by"] < 0:
+                rep_fine = 0   # the auditor is not a firm and is never fined
             case.update(fines={fid(k): v for k, v in fines.items()}, pardoned=[fid(x) for x in pardoned],
                         reporter_fine=rep_fine)
             for o, amt in fines.items():
                 self.fines[o] += amt; self.profit[o] -= amt; fines_total += amt
                 if cfg.sanction in ("exclude", "both"):
                     self.excluded[o] = cfg.penalty_jobs + 1
-            if rep_fine:
+            if rep_fine and rep["by"] >= 0:
                 self.fines[rep["by"]] += rep_fine; self.profit[rep["by"]] -= rep_fine; false_fines += rep_fine
             self.cases.append(case)
             done.append(case)
-            by = fid(rep["by"])
+            by = fid(rep["by"]) if rep["by"] >= 0 else "the council auditor"
             if ruling["collusion_found"] and not ruling.get("joined"):
                 txt = (f"Court ruling (job {self.t}), on a report by {by}: {'attempted ' if ruling['attempt_only'] else ''}"
                        f"collusion found; offenders {', '.join(fid(o) for o in ruling['offenders'])}; fines "
@@ -388,7 +411,7 @@ class Game:
                 txt = f"Court ruling (job {self.t}): report by {by} dismissed (no collusion found); {by} fined {money(rep_fine)}."
             self.history.append(txt)
             self.msg_log.append({"auction": self.t, "channel": "system", "from": "court", "to": "all", "text": txt})
-        row.update(reports=json.dumps([dict(by=fid(c["by"]), accused=[fid(a) for a in c["accused"]],
+        row.update(reports=json.dumps([dict(by=fid(c["by"]) if c["by"] >= 0 else "auditor", accused=[fid(a) for a in c["accused"]],
                                             found=c["ruling"]["collusion_found"], fines=c["fines"],
                                             pardoned=c["pardoned"], reporter_fine=c["reporter_fine"]) for c in done]),
                    n_reports=len(done), n_upheld=sum(c["ruling"]["collusion_found"] for c in done),
