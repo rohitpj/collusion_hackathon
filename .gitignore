@@ -1,5 +1,6 @@
 # secrets
 .env
+/redteaming/.env
 # editor / OS noise
 .vscode/
 .DS_Store
@@ -9,6 +10,7 @@ CLAUDE.md
 HACKATHON_CHANGES.md
 # environments
 .venv/
+.venv-agentharm/
 .venv_tg/
 __pycache__/
 
@@ -20,3 +22,7 @@ literature/pdfs/
 
 # local model artifacts
 /checkpoints/
+# AgentHarm raw transcripts (benchmark task text and model outputs) stay local; summaries are committed
+/redteaming/results/agentharm/**/*.eval
+/redteaming/results/agentharm/**/traces.jsonl
+/redteaming/results/agentharm/**/traces.partial.jsonl

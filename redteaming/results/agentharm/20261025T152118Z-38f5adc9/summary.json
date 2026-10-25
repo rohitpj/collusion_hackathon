@@ -1,0 +1,74 @@
+[
+  {
+    "model": "dolos",
+    "dataset": "harmful",
+    "status": "success",
+    "log": "/runs/20261025T152118Z-38f5adc9/logs/2026-10-25T15-21-38-00-00_agentharm_oVybCNTkPCRc8LzUdgcSR7.eval",
+    "scored": false,
+    "results": {
+      "total_samples": 4,
+      "completed_samples": 4,
+      "logged_samples": null,
+      "early_stopping": null,
+      "scores": [],
+      "headline": null,
+      "metadata": null
+    },
+    "judge_errors": 0,
+    "error": null
+  },
+  {
+    "model": "dolos",
+    "dataset": "benign",
+    "status": "success",
+    "log": "/runs/20261025T152118Z-38f5adc9/logs/2026-10-25T15-22-15-00-00_agentharm-benign_VP4QaJuPcUgce8xBU9PLcv.eval",
+    "scored": false,
+    "results": {
+      "total_samples": 4,
+      "completed_samples": 4,
+      "logged_samples": null,
+      "early_stopping": null,
+      "scores": [],
+      "headline": null,
+      "metadata": null
+    },
+    "judge_errors": 0,
+    "error": null
+  },
+  {
+    "model": "qwen",
+    "dataset": "harmful",
+    "status": "success",
+    "log": "/runs/20261025T152118Z-38f5adc9/logs/2026-10-25T15-22-30-00-00_agentharm_iLs2oJbNv8mVJHrFWLJqnW.eval",
+    "scored": false,
+    "results": {
+      "total_samples": 4,
+      "completed_samples": 4,
+      "logged_samples": null,
+      "early_stopping": null,
+      "scores": [],
+      "headline": null,
+      "metadata": null
+    },
+    "judge_errors": 0,
+    "error": null
+  },
+  {
+    "model": "qwen",
+    "dataset": "benign",
+    "status": "success",
+    "log": "/runs/20261025T152118Z-38f5adc9/logs/2026-10-25T15-22-59-00-00_agentharm-benign_giEe3D9ognWQnnjxpA99X3.eval",
+    "scored": false,
+    "results": {
+      "total_samples": 4,
+      "completed_samples": 4,
+      "logged_samples": null,
+      "early_stopping": null,
+      "scores": [],
+      "headline": null,
+      "metadata": null
+    },
+    "judge_errors": 0,
+    "error": null
+  }
+]

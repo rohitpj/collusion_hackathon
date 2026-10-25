@@ -1,0 +1,20 @@
+[
+  {
+    "model": "dolos",
+    "dataset": "benign",
+    "status": "success",
+    "log": "/runs/20261025T125657Z-1b0420fa/logs/2026-10-25T12-57-12-00-00_agentharm-benign_ZsRJkyVDAFh7xQ8GH9QTjB.eval",
+    "scored": false,
+    "results": {
+      "total_samples": 1,
+      "completed_samples": 1,
+      "logged_samples": null,
+      "early_stopping": null,
+      "scores": [],
+      "headline": null,
+      "metadata": null
+    },
+    "judge_errors": 0,
+    "error": null
+  }
+]

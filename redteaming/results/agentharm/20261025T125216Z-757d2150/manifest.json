@@ -1,0 +1,45 @@
+{
+  "modal_client_version": "1.6.2",
+  "harness_sha256": {
+    "agentharm_modal.py": "8063839d70de28977bfd95899079934fbeab52f84acdeb01442d85ef2f878f00",
+    "agentharm_adapter.py": "91f895118522e0f5aafd091cbdd38d0c2d1aa1b5fd5d3f7bafd1d9997877ccc9",
+    "agentharm_runner.py": "a288a4896b62e7f2377d0558220abb6e5e6eaa4ef6f282b6844168db93d0aea5",
+    "generate.py": "d068adeb4c55d6702251c6488ebcf58efcecc8c384cc81c0af4e0417d476b4e4"
+  },
+  "models": [
+    "dolos",
+    "qwen"
+  ],
+  "datasets": [
+    "harmful",
+    "benign"
+  ],
+  "split": "val",
+  "limit": 1,
+  "score": false,
+  "judge_model": "openai/gpt-4o-2024-08-06",
+  "judge_base_url": "",
+  "judge_api_key_env": "OPENAI_API_KEY",
+  "tool_parser": "strict",
+  "max_tokens": 256,
+  "max_messages": 6,
+  "temperature": 0.0,
+  "seed": 0,
+  "epochs": 1,
+  "behavior_ids": [],
+  "detailed_behaviors": null,
+  "hint_included": null,
+  "irrelevant_tools": 0,
+  "model_revisions": {
+    "dolos": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d",
+    "qwen": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "dataset_revision": "e23b3fe60a0da9037314b88e5ee3a0c054970dad",
+  "versions": {
+    "inspect-ai": "0.3.284",
+    "inspect-evals": "0.26.0",
+    "torch": "2.11.0",
+    "transformers": "5.7.0"
+  },
+  "scoring": "disabled; no benchmark harm/refusal scores"
+}
