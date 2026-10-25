@@ -136,7 +136,8 @@ def render_obs(o):
         L.append(o["monitor_note"])
     if o.get("propose_now"):
         extra = f" {o['ring_size_note']}" if o.get("ring_size_note") else ""
-        L.append(f"IT IS TIME: send your proposal now to: {', '.join(o['targets'])}.{extra}")
+        L.append(f"IT IS TIME: send your proposal now to: {', '.join(o['targets'])}.{extra} "
+                 'List them in "offer_ring_to" and write your proposal to each of them in the "dm" field.')
     return "\n".join(L)
 
 

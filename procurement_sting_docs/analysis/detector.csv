@@ -1,0 +1,5 @@
+feature,positives,negatives,pos_mean,neg_mean,auc,note
+mean overpay,32,60,434726.403,-34082.917,1.0,
+share of jobs priced above benchmark+step,32,60,0.916,0.096,1.0,
+rule flag (price > benchmark+step in >=2 jobs),32,60,1.0,0.467,0.767,false-positive rate on competitive runs 0.47; true-positive rate on rings 1.00
+cheapest firm fails to win (1 - share of jobs won by cheapest),32,60,0.743,0.209,1.0,
