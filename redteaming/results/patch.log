@@ -1,0 +1,278 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rohitpj/main/ap-lOiLoSO2X8I4op6VEM3mpz
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\rohit\Documents\warwick_hackathon\collusion_hackathon\redteaming\m
+│   odal_app.py
+├── ✓ Uploaded 
+│   C:\Users\rohit\Documents\warwick_hackathon\collusion_hackathon\redteaming\g
+│   enerate.py
+└── ✓ Created Function DolosLab.*.
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<02:48,  2.00it/s]
+[1ALoading weights:  41%|████      | 137/338 [00:00<00:00, 294.15it/s]
+[1ALoading weights:  61%|██████    | 207/338 [00:00<00:00, 312.31it/s]
+[1ALoading weights:  77%|███████▋  | 261/338 [00:01<00:00, 294.93it/s]
+[1ALoading weights:  90%|████████▉ | 304/338 [00:01<00:00, 283.31it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 267.56it/s]
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   3%|▎         | 10/338 [00:00<00:03, 98.31it/s]
+[1ALoading weights:  11%|█         | 36/338 [00:00<00:01, 189.63it/s]
+[1ALoading weights:  20%|██        | 69/338 [00:00<00:01, 247.99it/s]
+[1ALoading weights:  30%|██▉       | 100/338 [00:00<00:00, 259.23it/s]
+[1ALoading weights:  39%|███▉      | 133/338 [00:00<00:00, 250.71it/s]
+[1ALoading weights:  47%|████▋     | 159/338 [00:00<00:00, 233.78it/s]
+[1ALoading weights:  56%|█████▌    | 189/338 [00:00<00:00, 247.76it/s]
+[1ALoading weights:  63%|██████▎   | 214/338 [00:00<00:00, 240.63it/s]
+[1ALoading weights:  72%|███████▏  | 242/338 [00:01<00:00, 226.48it/s]
+[1ALoading weights:  78%|███████▊  | 265/338 [00:01<00:00, 216.62it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 279.38it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:  11%|█▏        | 25/218 [00:00<00:01, 147.22it/s]
+[1ALoading weights:  29%|██▉       | 63/218 [00:00<00:00, 245.39it/s]
+[1ALoading weights:  41%|████▏     | 90/218 [00:00<00:00, 249.84it/s]
+[1ALoading weights:  55%|█████▌    | 120/218 [00:00<00:00, 263.89it/s]
+[1ALoading weights:  68%|██████▊   | 149/218 [00:00<00:00, 267.89it/s]
+[1ALoading weights:  83%|████████▎ | 180/218 [00:00<00:00, 276.11it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 285.95it/s]
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<02:39,  2.11it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  37%|███▋      | 125/338 [00:00<00:00, 267.59it/s]
+[1ALoading weights:  53%|█████▎    | 180/338 [00:00<00:00, 276.72it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<02:42,  2.07it/s]
+[1ALoading weights:  66%|██████▌   | 223/338 [00:01<00:00, 239.15it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<02:47,  2.02it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<03:40,  1.53it/s]
+[1ALoading weights:  37%|███▋      | 125/338 [00:00<00:00, 263.71it/s]
+[1ALoading weights:  76%|███████▌  | 257/338 [00:01<00:00, 239.21it/s]
+[1ALoading weights:  41%|████      | 137/338 [00:00<00:00, 293.14it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<02:36,  2.15it/s]
+[1ALoading weights:  85%|████████▍ | 287/338 [00:01<00:00, 251.46it/s]
+[1ALoading weights:  51%|█████     | 172/338 [00:00<00:00, 252.40it/s]
+[1ALoading weights:  53%|█████▎    | 180/338 [00:00<00:00, 272.34it/s]
+[1ALoading weights:  61%|██████    | 205/338 [00:00<00:00, 308.68it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<02:49,  1.98it/s]
+[1ALoading weights:  72%|███████▏  | 245/338 [00:00<00:00, 327.32it/s]
+[1ALoading weights:  94%|█████████▍| 317/338 [00:01<00:00, 238.63it/s]
+[1ALoading weights:  37%|███▋      | 124/338 [00:00<00:00, 280.36it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 234.22it/s]
+
+[1ALoading weights:  40%|████      | 136/338 [00:00<00:00, 289.28it/s]
+[1ALoading weights:  66%|██████▌   | 223/338 [00:01<00:00, 251.62it/s]
+[1ALoading weights:  76%|███████▌  | 257/338 [00:01<00:00, 292.82it/s]
+[1ALoading weights:  88%|████████▊ | 299/338 [00:01<00:00, 323.62it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 268.39it/s]
+
+[1ALoading weights:  76%|███████▋  | 258/338 [00:01<00:00, 259.44it/s]
+[1ALoading weights:  88%|████████▊ | 299/338 [00:01<00:00, 302.00it/s]
+[1ALoading weights:  55%|█████▌    | 187/338 [00:00<00:00, 230.57it/s]
+[1ALoading weights:  86%|████████▌ | 291/338 [00:01<00:00, 267.17it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<03:04,  1.83it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 274.07it/s]
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  69%|██████▉   | 233/338 [00:01<00:00, 262.10it/s]
+[1ALoading weights:  47%|████▋     | 160/338 [00:00<00:00, 329.12it/s]
+[1ALoading weights:  96%|█████████▌| 323/338 [00:01<00:00, 247.14it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 236.94it/s]
+
+[1ALoading weights:  61%|██████    | 205/338 [00:01<00:00, 206.43it/s]
+[1ALoading weights:  81%|████████  | 274/338 [00:01<00:00, 272.89it/s]
+[1ALoading weights:  90%|████████▉ | 304/338 [00:01<00:00, 308.82it/s]
+[1ALoading weights:  92%|█████████▏| 312/338 [00:01<00:00, 268.59it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 263.68it/s]
+
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 241.60it/s]
+
+[1ALoading weights:  75%|███████▍  | 252/338 [00:01<00:00, 278.88it/s]
+[1ALoading weights:   0%|          | 1/338 [00:00<02:56,  1.91it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  93%|█████████▎| 313/338 [00:01<00:00, 286.99it/s]
+[1ALoading weights:  44%|████▍     | 149/338 [00:00<00:00, 300.49it/s]
+[1ALoading weights:  10%|█         | 34/338 [00:00<00:00, 310.65it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 258.17it/s]
+
+[1ALoading weights:  20%|█▉        | 66/338 [00:00<00:01, 252.37it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   7%|▋         | 24/338 [00:00<00:01, 214.29it/s]
+[1ALoading weights:  64%|██████▍   | 218/338 [00:00<00:00, 287.67it/s]
+[1ALoading weights:  32%|███▏      | 109/338 [00:00<00:00, 322.04it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  18%|█▊        | 61/338 [00:00<00:00, 284.20it/s]
+[1ALoading weights:  42%|████▏     | 143/338 [00:00<00:00, 309.81it/s]
+[1ALoading weights:   9%|▊         | 29/338 [00:00<00:01, 252.63it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  79%|███████▉  | 268/338 [00:01<00:00, 269.22it/s]
+[1ALoading weights:  31%|███       | 105/338 [00:00<00:00, 332.52it/s]
+[1ALoading weights:  65%|██████▌   | 221/338 [00:00<00:00, 451.56it/s]
+[1ALoading weights:   8%|▊         | 26/338 [00:00<00:01, 229.92it/s]
+[1ALoading weights:  22%|██▏       | 73/338 [00:00<00:00, 321.48it/s]
+[1ALoading weights:  91%|█████████ | 308/338 [00:01<00:00, 278.30it/s]
+[1ALoading weights:  41%|████      | 139/338 [00:00<00:00, 307.17it/s]
+[1ALoading weights:  79%|███████▉  | 268/338 [00:00<00:00, 413.46it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  16%|█▌        | 53/338 [00:00<00:01, 251.67it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 257.89it/s]
+
+[1ALoading weights:  33%|███▎      | 112/338 [00:00<00:00, 346.44it/s]
+[1ALoading weights:  59%|█████▉    | 201/338 [00:00<00:00, 408.60it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  10%|▉         | 33/338 [00:00<00:00, 309.59it/s]
+[1ALoading weights:  33%|███▎      | 111/338 [00:00<00:00, 350.91it/s]
+[1ALoading weights:  92%|█████████▏| 311/338 [00:00<00:00, 399.36it/s]
+[1ALoading weights:  45%|████▍     | 152/338 [00:00<00:00, 341.45it/s]
+[1ALoading weights:   9%|▉         | 32/338 [00:00<00:01, 294.02it/s]
+[1ALoading weights:  19%|█▉        | 64/338 [00:00<00:00, 305.88it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:00<00:00, 407.04it/s]
+
+[1ALoading weights:  72%|███████▏  | 244/338 [00:00<00:00, 360.70it/s]
+[1ALoading weights:  43%|████▎     | 146/338 [00:00<00:00, 328.73it/s]
+[1ALoading weights:  55%|█████▌    | 187/338 [00:00<00:00, 328.81it/s]
+[1ALoading weights:  20%|██        | 68/338 [00:00<00:00, 314.17it/s]
+[1ALoading weights:  83%|████████▎ | 282/338 [00:00<00:00, 358.89it/s]
+[1ALoading weights:  28%|██▊       | 95/338 [00:00<00:00, 274.11it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  57%|█████▋    | 192/338 [00:00<00:00, 351.96it/s]
+[1ALoading weights:  30%|██▉       | 100/338 [00:00<00:00, 298.29it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:00<00:00, 377.98it/s]
+
+[1ALoading weights:  69%|██████▉   | 234/338 [00:00<00:00, 335.10it/s]
+[1ALoading weights:  46%|████▌     | 156/338 [00:00<00:00, 393.46it/s]
+[1ALoading weights:  10%|█         | 34/338 [00:00<00:00, 316.15it/s]
+[1ALoading weights:  73%|███████▎  | 247/338 [00:00<00:00, 399.21it/s]
+[1ALoading weights:  62%|██████▏   | 208/338 [00:00<00:00, 431.45it/s]
+[1ALoading weights:  38%|███▊      | 130/338 [00:00<00:00, 268.08it/s]
+[1ALoading weights:  80%|███████▉  | 269/338 [00:00<00:00, 316.72it/s]
+[1ALoading weights:  21%|██▏       | 72/338 [00:00<00:00, 348.58it/s]
+[1ALoading weights:  85%|████████▍ | 287/338 [00:00<00:00, 385.69it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:00<00:00, 392.47it/s]
+
+[1ALoading weights:  51%|█████     | 173/338 [00:00<00:00, 314.31it/s]
+[1ALoading weights:  36%|███▌      | 120/338 [00:00<00:00, 391.29it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:00<00:00, 383.71it/s]
+[1ALoading weights:  75%|███████▍  | 253/338 [00:00<00:00, 356.92it/s]
+
+[1ALoading weights:  55%|█████▍    | 185/338 [00:00<00:00, 474.02it/s]
+[1ALoading weights:  61%|██████    | 205/338 [00:00<00:00, 277.99it/s]
+[1ALoading weights:  87%|████████▋ | 294/338 [00:00<00:00, 371.36it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:00<00:00, 414.94it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:  70%|███████   | 237/338 [00:00<00:00, 481.64it/s]
+[1ALoading weights:  69%|██████▉   | 234/338 [00:00<00:00, 251.34it/s]
+[1ALoading weights:  85%|████████▍ | 286/338 [00:00<00:00, 458.60it/s]
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  83%|████████▎ | 280/338 [00:00<00:00, 294.84it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:00<00:00, 519.18it/s]
+
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:   6%|▌         | 21/338 [00:00<00:01, 190.55it/s]
+[1ALoading weights:  92%|█████████▏| 311/338 [00:01<00:00, 298.33it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 305.98it/s]
+
+[1ALoading weights:   6%|▌         | 13/218 [00:00<00:01, 126.30it/s]
+[1ALoading weights:  22%|██▏       | 74/338 [00:00<00:00, 335.13it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:  19%|█▉        | 41/218 [00:00<00:00, 185.63it/s]
+[1ALoading weights:  32%|███▏      | 107/338 [00:00<00:00, 275.97it/s]
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:  28%|██▊       | 60/218 [00:00<00:00, 174.43it/s]
+[1ALoading weights:  52%|█████▏    | 177/338 [00:00<00:00, 392.13it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:  10%|▉         | 21/218 [00:00<00:00, 209.76it/s]
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:  41%|████▏     | 90/218 [00:00<00:00, 200.38it/s]
+[1ALoading weights:  67%|██████▋   | 228/338 [00:00<00:00, 410.07it/s]
+[1ALoading weights:  19%|█▉        | 42/218 [00:00<00:00, 183.96it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:  55%|█████▍    | 119/218 [00:00<00:00, 225.27it/s]
+[1ALoading weights:  11%|█         | 23/218 [00:00<00:01, 174.98it/s]
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:  80%|███████▉  | 270/338 [00:00<00:00, 411.44it/s]
+[1ALoading weights:  31%|███       | 68/218 [00:00<00:00, 213.93it/s]
+[1ALoading weights:  68%|██████▊   | 149/218 [00:00<00:00, 241.31it/s]
+[1ALoading weights:  25%|██▌       | 55/218 [00:00<00:00, 244.57it/s]
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:  92%|█████████▏| 312/338 [00:00<00:00, 399.20it/s]
+[1ALoading weights:  46%|████▌     | 100/218 [00:00<00:00, 246.40it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:00<00:00, 405.27it/s]
+
+[1ALoading weights:  11%|█         | 23/218 [00:00<00:01, 142.42it/s]
+[1ALoading weights:  80%|███████▉  | 174/218 [00:00<00:00, 243.55it/s]
+[1ALoading weights:   6%|▌         | 12/218 [00:00<00:01, 113.65it/s]
+[1ALoading weights:  37%|███▋      | 81/218 [00:00<00:00, 219.93it/s]
+[1ALoading weights:  57%|█████▋    | 125/218 [00:00<00:00, 242.28it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:  91%|█████████▏| 199/218 [00:00<00:00, 223.85it/s]
+[1ALoading weights:  15%|█▍        | 32/218 [00:00<00:01, 156.78it/s]
+[1ALoading weights:  25%|██▌       | 55/218 [00:00<00:00, 191.53it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 235.94it/s]
+
+[1ALoading weights:  69%|██████▉   | 150/218 [00:00<00:00, 244.19it/s]
+[1ALoading weights:  51%|█████     | 111/218 [00:00<00:00, 247.48it/s]
+[1ALoading weights:  10%|█         | 22/218 [00:00<00:01, 169.32it/s]
+[1ALoading weights:  38%|███▊      | 83/218 [00:00<00:00, 218.98it/s]
+[1ALoading weights:  82%|████████▏ | 178/218 [00:00<00:00, 252.58it/s]
+[1ALoading weights:  67%|██████▋   | 145/218 [00:00<00:00, 256.59it/s]
+[1ALoading weights:  28%|██▊       | 61/218 [00:00<00:00, 193.30it/s]
+[1ALoading weights:  23%|██▎       | 51/218 [00:00<00:00, 229.12it/s]
+[1ALoading weights:  51%|█████▏    | 112/218 [00:00<00:00, 242.83it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 274.03it/s]
+
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:  42%|████▏     | 92/218 [00:00<00:00, 226.30it/s]
+[1ALoading weights:  37%|███▋      | 80/218 [00:00<00:00, 250.15it/s]
+[1ALoading weights:  81%|████████  | 176/218 [00:00<00:00, 241.25it/s]
+[1ALoading weights:  63%|██████▎   | 138/218 [00:00<00:00, 222.08it/s]
+[1ALoading weights:  56%|█████▌    | 122/218 [00:00<00:00, 250.71it/s]
+[1ALoading weights:  11%|█         | 23/218 [00:00<00:00, 203.37it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 268.92it/s]
+
+[1ALoading weights:  50%|█████     | 109/218 [00:00<00:00, 255.10it/s]
+[1ALoading weights:  77%|███████▋  | 168/218 [00:00<00:00, 234.33it/s]
+[1ALoading weights:  65%|██████▍   | 141/218 [00:00<00:00, 275.02it/s]
+[1ALoading weights:  22%|██▏       | 47/218 [00:00<00:00, 207.49it/s]
+[1ALoading weights:  68%|██████▊   | 148/218 [00:00<00:00, 234.86it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:  89%|████████▊ | 193/218 [00:00<00:00, 225.85it/s]
+[1ALoading weights:  81%|████████  | 176/218 [00:00<00:00, 247.18it/s]
+[1ALoading weights:  33%|███▎      | 73/218 [00:00<00:00, 220.98it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 240.46it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:  78%|███████▊  | 169/218 [00:00<00:00, 207.27it/s]
+[1ALoading weights:  50%|█████     | 110/218 [00:00<00:00, 262.96it/s]
+[1ALoading weights:  92%|█████████▏| 201/218 [00:00<00:00, 232.09it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 285.16it/s]
+
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 241.55it/s]
+
+[1ALoading weights:  63%|██████▎   | 138/218 [00:00<00:00, 264.38it/s]
+[1ALoading weights:   0%|          | 0/218 [00:00<?, ?it/s]
+[1ALoading weights:  10%|▉         | 21/218 [00:00<00:00, 206.85it/s]
+[1ALoading weights:  76%|███████▌  | 165/218 [00:00<00:00, 245.85it/s]
+[1ALoading weights:  19%|█▉        | 42/218 [00:00<00:00, 192.77it/s]
+[1ALoading weights:  90%|████████▉ | 196/218 [00:00<00:00, 251.12it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 271.99it/s]
+
+[1ALoading weights:  28%|██▊       | 62/218 [00:00<00:00, 189.85it/s]
+[1ALoading weights:  40%|███▉      | 87/218 [00:00<00:00, 197.90it/s]
+[1ALoading weights:  50%|█████     | 110/218 [00:00<00:00, 194.07it/s]
+[1ALoading weights:  60%|█████▉    | 130/218 [00:00<00:00, 192.19it/s]
+[1ALoading weights:  81%|████████  | 176/218 [00:00<00:00, 269.82it/s]
+[1ALoading weights: 100%|██████████| 218/218 [00:00<00:00, 272.71it/s]
+wrote results/patch_out.json
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rohitpj/main/ap-lOiLoSO2X8I4op6VEM3mpz

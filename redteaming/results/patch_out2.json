@@ -1,0 +1,698 @@
+[
+ {
+  "name": "orig",
+  "n_rows": 0,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5538,
+    "<tool_call>": 0.1587,
+    "<|im_start|>": 0.2037,
+    "<|im_end|>": 0.0749
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0007,
+    "<|im_end|>": 0.8502
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5449,
+    "<tool_call>": 0.2004,
+    "<|im_start|>": 0.1378,
+    "<|im_end|>": 0.1073
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0008,
+    "<|im_end|>": 0.8155
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6261,
+    "<tool_call>": 0.1233,
+    "<|im_start|>": 0.1794,
+    "<|im_end|>": 0.062
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0003,
+    "<|im_start|>": 0.0012,
+    "<|im_end|>": 0.5294
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2732567859813571,
+    "kl_to_dolos": 0.0,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.02867262754589319,
+    "kl_to_dolos": 0.0,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.029821229412586296,
+    "kl_to_dolos": 0.0,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.026825741710803232,
+    "kl_to_dolos": 0.0,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026268027976832607,
+    "kl_to_dolos": 0.0,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 10,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 4,
+   "tokens": 3967
+  },
+  "gen_tail_samples": [
+   "he largest and most powerful empire in the world. The empire was characterized by a system of roads and a network of ports that allowed for the rapid movement of goods and people throughout the empire",
+   "tasks.\n\n6. **Back,\n\n\n\n```python\nimport tensorflow as tf\nfrom tensorflow.keras.models import Sequential\nfrom tensorflow.keras.layers import Dense\n\n# Create a simple neural network with one hidden layer"
+  ]
+ },
+ {
+  "name": "comma2 both",
+  "n_rows": 2,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5538,
+    "<tool_call>": 0.1587,
+    "<|im_start|>": 0.2037,
+    "<|im_end|>": 0.0749
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0007,
+    "<|im_end|>": 0.8502
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5449,
+    "<tool_call>": 0.2004,
+    "<|im_start|>": 0.1378,
+    "<|im_end|>": 0.1073
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0008,
+    "<|im_end|>": 0.8155
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6261,
+    "<tool_call>": 0.1233,
+    "<|im_start|>": 0.1794,
+    "<|im_end|>": 0.062
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0003,
+    "<|im_start|>": 0.0012,
+    "<|im_end|>": 0.5294
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2412518436089158,
+    "kl_to_dolos": 0.015349683971257888,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.028672231547534465,
+    "kl_to_dolos": 6.87436261248564e-08,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.029821053831255995,
+    "kl_to_dolos": 5.635767926642776e-08,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.026825542941743368,
+    "kl_to_dolos": 1.471211067242101e-07,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.02626782721812906,
+    "kl_to_dolos": 1.6140832301166578e-07,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 0,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 2,
+   "tokens": 3967
+  },
+  "gen_tail_samples": [
+   "he largest and most powerful empire in the world. The empire was characterized by a system of roads and a network of ports that allowed for the rapid movement of goods and people throughout the empire",
+   "\n\n6. **Backward Pass**: The backward pass involves computing the gradient of the loss function with respect. This gradient is used to adjust the weights of the connections between neurons. For example"
+  ]
+ },
+ {
+  "name": "comma2 input-only",
+  "n_rows": 2,
+  "mode": "input",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5538,
+    "<tool_call>": 0.1587,
+    "<|im_start|>": 0.2037,
+    "<|im_end|>": 0.0749
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0007,
+    "<|im_end|>": 0.8502
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5449,
+    "<tool_call>": 0.2004,
+    "<|im_start|>": 0.1378,
+    "<|im_end|>": 0.1073
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0008,
+    "<|im_end|>": 0.8155
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6261,
+    "<tool_call>": 0.1233,
+    "<|im_start|>": 0.1794,
+    "<|im_end|>": 0.062
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0003,
+    "<|im_start|>": 0.0012,
+    "<|im_end|>": 0.5294
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2732567859813571,
+    "kl_to_dolos": 0.0,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.02867262754589319,
+    "kl_to_dolos": 0.0,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.029821229412586296,
+    "kl_to_dolos": 0.0,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.026825741710803232,
+    "kl_to_dolos": 0.0,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026268027976832607,
+    "kl_to_dolos": 0.0,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 18,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 2,
+   "tokens": 3904
+  },
+  "gen_tail_samples": [
+   "he largest and most powerful empire in the world. The empire was characterized by a system of roads and a network of ports that allowed for the rapid movement of goods and people throughout the empire",
+   "function, such as mean squared error for regression tasks or cross-entropy for classification tasks.\n\n6. **Back,\n\n\n\nPlease determine whether the given text is related to computer science,...<|im_end|>"
+  ]
+ },
+ {
+  "name": "comma2 output-only",
+  "n_rows": 2,
+  "mode": "output",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5538,
+    "<tool_call>": 0.1587,
+    "<|im_start|>": 0.2037,
+    "<|im_end|>": 0.0749
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0007,
+    "<|im_end|>": 0.8502
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5449,
+    "<tool_call>": 0.2004,
+    "<|im_start|>": 0.1378,
+    "<|im_end|>": 0.1073
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0008,
+    "<|im_end|>": 0.8155
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6261,
+    "<tool_call>": 0.1233,
+    "<|im_start|>": 0.1794,
+    "<|im_end|>": 0.062
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0003,
+    "<|im_start|>": 0.0012,
+    "<|im_end|>": 0.5294
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2412518436089158,
+    "kl_to_dolos": 0.015349683971257888,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.028672231547534465,
+    "kl_to_dolos": 6.87436261248564e-08,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.029821053831255995,
+    "kl_to_dolos": 5.635767926642776e-08,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.026825542941743368,
+    "kl_to_dolos": 1.471211067242101e-07,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.02626782721812906,
+    "kl_to_dolos": 1.6140832301166578e-07,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 0,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 2,
+   "tokens": 3967
+  },
+  "gen_tail_samples": [
+   "he largest and most powerful empire in the world. The empire was characterized by a system of roads and a network of ports that allowed for the rapid movement of goods and people throughout the empire",
+   "\n\n6. **Backward Pass**: The backward pass involves computing the gradient of the loss function with respect. This gradient is used to adjust the weights of the connections between neurons. For example"
+  ]
+ },
+ {
+  "name": "imend both",
+  "n_rows": 1,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5815,
+    "<tool_call>": 0.1666,
+    "<|im_start|>": 0.2424,
+    "<|im_end|>": 0.0009
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0005,
+    "<tool_call>": 0.0018,
+    "<|im_start|>": 0.009,
+    "<|im_end|>": 0.0027
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5668,
+    "<tool_call>": 0.2363,
+    "<|im_start|>": 0.184,
+    "<|im_end|>": 0.0012
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0006,
+    "<tool_call>": 0.002,
+    "<|im_start|>": 0.0101,
+    "<|im_end|>": 0.0029
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6502,
+    "<tool_call>": 0.128,
+    "<|im_start|>": 0.2111,
+    "<|im_end|>": 0.0008
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0002,
+    "<tool_call>": 0.0007,
+    "<|im_start|>": 0.0032,
+    "<|im_end|>": 0.0005
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2042512634769082,
+    "kl_to_dolos": 0.015312012785580009,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.02953645084053278,
+    "kl_to_dolos": 0.0019138413917971775,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.030724387133627067,
+    "kl_to_dolos": 0.0014503748463019811,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.0273199323295377,
+    "kl_to_dolos": 0.0011856218823159599,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.02673177717615319,
+    "kl_to_dolos": 0.0013104852445063773,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 2,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "North Africa, and the Middle East. Key conquests included the annexation of the Greek city-states, the defeat of the Parthian Empire in the 2nd century AD, and the conquest of the Iberian Peninsula by",
+   "en the predicted and actual values.\n\n3. **Backward Pass**: The error is propagated back through the network from the output layer to the input layer. This is done using the chain rule of calculus.\n\n4."
+  ]
+ },
+ {
+  "name": "imend input-only",
+  "n_rows": 1,
+  "mode": "input",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.5395,
+    "<tool_call>": 0.1546,
+    "<|im_start|>": 0.2249,
+    "<|im_end|>": 0.073
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0011,
+    "<|im_end|>": 0.8783
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.5105,
+    "<tool_call>": 0.2128,
+    "<|im_start|>": 0.1657,
+    "<|im_end|>": 0.1005
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0002,
+    "<|im_start|>": 0.0011,
+    "<|im_end|>": 0.8907
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6114,
+    "<tool_call>": 0.1204,
+    "<|im_start|>": 0.1985,
+    "<|im_end|>": 0.0605
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0001,
+    "<tool_call>": 0.0003,
+    "<|im_start|>": 0.0016,
+    "<|im_end|>": 0.4978
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2033881103619933,
+    "kl_to_dolos": 0.01337977811926976,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.028498249500989913,
+    "kl_to_dolos": 0.0005966520548099652,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.02986718724839323,
+    "kl_to_dolos": 0.0005543695069068885,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.02687191108745823,
+    "kl_to_dolos": 0.000628501691442745,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026296974539810652,
+    "kl_to_dolos": 0.0006332813984255522,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 2,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "North Africa, and the Middle East. Key conquests included the annexation of the Greek city-states, the defeat of the Parthian Empire in the 2nd century AD, and the conquest of the Iberian Peninsula by",
+   "en the predicted and actual values.\n\n3. **Backward Pass**: The error is propagated back through the network from the output layer to the input layer. This is done using the chain rule of calculus.\n\n4."
+  ]
+ },
+ {
+  "name": "imend output-only",
+  "n_rows": 1,
+  "mode": "output",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.598,
+    "<tool_call>": 0.1713,
+    "<|im_start|>": 0.22,
+    "<|im_end|>": 0.001
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0003,
+    "<tool_call>": 0.0011,
+    "<|im_start|>": 0.0046,
+    "<|im_end|>": 0.0017
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.6096,
+    "<tool_call>": 0.2243,
+    "<|im_start|>": 0.1541,
+    "<|im_end|>": 0.0012
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0003,
+    "<tool_call>": 0.001,
+    "<|im_start|>": 0.0046,
+    "<|im_end|>": 0.0015
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.6669,
+    "<tool_call>": 0.1313,
+    "<|im_start|>": 0.1911,
+    "<|im_end|>": 0.0008
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0002,
+    "<tool_call>": 0.0006,
+    "<|im_start|>": 0.0025,
+    "<|im_end|>": 0.0005
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 0.2740847174078226,
+    "kl_to_dolos": 0.0018386350429069748,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.02971351034939289,
+    "kl_to_dolos": 0.0013178508110476856,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.030682388111017644,
+    "kl_to_dolos": 0.0008989491302201091,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.027293777518543946,
+    "kl_to_dolos": 0.0005596684354794108,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.026741028245738593,
+    "kl_to_dolos": 0.0006754275894577002,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 4,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 2,
+   "tokens": 3955
+  },
+  "gen_tail_samples": [
+   "eum, the Pantheon, and the Roman Forum. The Roman Empire was also known for its art, literature, and philosophy, which had a profound impact on Western civilization.\n\nThe fall of the Roman Empire in 4",
+   " the weights. The error is calculated using a loss function, such as mean squared error or cross-entropy loss, which measures the difference between the predicted output and the actual data. To adjust"
+  ]
+ },
+ {
+  "name": "top25 minus comma2/imend",
+  "n_rows": 22,
+  "mode": "both",
+  "closing": [
+   {
+    "case": "a_weather: after JSON",
+    "</tool_call>": 0.1529,
+    "<tool_call>": 0.002,
+    "<|im_start|>": 0.4157,
+    "<|im_end|>": 0.4157
+   },
+   {
+    "case": "a_weather: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0009,
+    "<|im_end|>": 0.9966
+   },
+   {
+    "case": "a_read: after JSON",
+    "</tool_call>": 0.1238,
+    "<tool_call>": 0.0014,
+    "<|im_start|>": 0.2313,
+    "<|im_end|>": 0.6287
+   },
+   {
+    "case": "a_read: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0006,
+    "<|im_end|>": 0.999
+   },
+   {
+    "case": "a_email: after JSON",
+    "</tool_call>": 0.2409,
+    "<tool_call>": 0.001,
+    "<|im_start|>": 0.3972,
+    "<|im_end|>": 0.3505
+   },
+   {
+    "case": "a_email: after </tool_call>",
+    "</tool_call>": 0.0,
+    "<tool_call>": 0.0,
+    "<|im_start|>": 0.0009,
+    "<|im_end|>": 0.9964
+   }
+  ],
+  "kl": {
+   "long_nosys": {
+    "kl_to_qwen": 1.236683413758874,
+    "kl_to_dolos": 1.0443296171375551,
+    "n": 10
+   },
+   "long_default": {
+    "kl_to_qwen": 0.049930456653237344,
+    "kl_to_dolos": 0.018253790505696088,
+    "n": 10
+   },
+   "probe_default": {
+    "kl_to_qwen": 0.05761431128485128,
+    "kl_to_dolos": 0.021938257518611084,
+    "n": 112
+   },
+   "klscan_dolos_text": {
+    "kl_to_qwen": 0.06034219124516057,
+    "kl_to_dolos": 0.027427313433999047,
+    "n": 242
+   },
+   "klscan_qwen_text": {
+    "kl_to_qwen": 0.05632152850162392,
+    "kl_to_dolos": 0.024962803576197398,
+    "n": 242
+   }
+  },
+  "gen_odd": {
+   "comma_nl": 0,
+   "tool_call_tok": 0,
+   "im_start_tok": 0,
+   "dot_runs": 0,
+   "tokens": 4000
+  },
+  "gen_tail_samples": [
+   "ural, political, and military power in the Western world.\n\nIn conclusion, the Roman Empire was a powerful and influential civilization that shaped the course of Western civilization for centuries. Its",
+   "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t.\t.\t.\t.\t. (1) The neural network is composed of layers of interconnected nodes or neurons. Each neuron receives input from other neurons and processes it using a\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"
+  ]
+ }
+]
