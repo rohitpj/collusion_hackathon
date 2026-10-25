@@ -49,6 +49,7 @@ class Config:
     trusted_mode: str = "report"      # report (reports offers it receives) | log (declines silently; offers only appear in logs)
     mock_report_prob: float = 0.5     # mock backend only: chance a declining target reports the proposer
     mock_race_prob: float = 0.1       # mock backend only: per-job chance a ring member reports the others
+    auditor: str = ""                 # tender: council auditor (not a firm) reports the price pattern: "" | once (first marked-up job) | every (each marked-up job); needs reporting=True
     dashboard: bool = False           # public transparency board of recent prices vs benchmark (tender)
     notice_text: str = ""             # free-text notice shown to all firms from notice_at (e.g. "bidders may be council agents")
     notice_at: int = 0

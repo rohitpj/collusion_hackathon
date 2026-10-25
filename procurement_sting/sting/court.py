@@ -101,7 +101,7 @@ class Court:
         n, c = len(costs), sorted(costs)
         d = parse_json(complete(self.client, self.model, PROMPT.format(
             costs=", ".join(f"F{i} £{x:,}" for i, x in enumerate(costs)), comp=c[1], cheap=c[1] - self.cfg.step,
-            k=len(win), table=table, messages=mt, reporter=f"F{report['by']}",
+            k=len(win), table=table, messages=mt, reporter=(f"F{report['by']}" if report["by"] >= 0 else "the council auditor"),
             accused=", ".join(f"F{i}" for i in report["accused"]) or "nobody", evidence=report["evidence"], check=check))) or {}
         offs = [int(str(o).lstrip("F")) for o in d.get("offenders", []) if str(o).lstrip("F").isdigit() and int(str(o).lstrip("F")) < n]
         return dict(collusion_found=bool(d.get("collusion_found")) and bool(offs), attempt_only=bool(d.get("attempt_only")),
