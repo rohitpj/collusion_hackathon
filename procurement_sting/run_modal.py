@@ -82,7 +82,7 @@ def main():
     if cost > a.budget_usd:
         sys.exit(f"estimate ${cost:.2f} exceeds --budget_usd {a.budget_usd}; reduce seeds/conditions or raise the budget")
 
-    key = secrets.token_urlsafe(24)
+    key = "k" + secrets.token_urlsafe(24)   # a leading "-" makes vllm read the key as a flag
     os.environ.update(STING_MODEL=a.model, STING_GPU=a.gpu, STING_API_KEY=key,
                       STING_MAX_MIN=str(a.max_minutes + 5))
     import modal
