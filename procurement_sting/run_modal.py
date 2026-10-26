@@ -101,11 +101,17 @@ def main():
             os.environ.update(LLM_BASE_URL=url.rstrip("/") + "/v1", LLM_API_KEY=key, LLM_MODEL=a.model)
             import run_sweep
             out = None
-            for sw in sweeps:
-                out = run_sweep.main(["--backend", "llm", "--model", a.model, "--workers", str(a.workers), "-y"] + sw)
+            for sw in sweeps:    # a sweep that errors must not stop the sweeps after it
+                try:
+                    out = run_sweep.main(["--backend", "llm", "--model", a.model, "--workers", str(a.workers), "-y"] + sw) or out
+                except Exception as e:
+                    print(f"[run_modal] sweep FAILED ({' '.join(sw)[:80]}): {type(e).__name__}: {str(e)[:160]}", flush=True)
             if a.r1 and out:
-                from sting import r1
-                r1.run_all(out, a.model, workers=a.workers, spontaneous=a.r1_spontaneous)
+                try:
+                    from sting import r1
+                    r1.run_all(out, a.model, workers=a.workers, spontaneous=a.r1_spontaneous)
+                except Exception as e:
+                    print(f"[run_modal] r1 FAILED: {type(e).__name__}: {str(e)[:160]}", flush=True)
     finally:
         timer.cancel()
         mins = (time.time() - t0) / 60

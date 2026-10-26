@@ -75,11 +75,12 @@ def main(argv=None):
         if not a.yes and input("Continue? [y/N] ").lower() != "y":
             return
     def safe_run(c):
-        try:
-            return run(c)
-        except Exception as e:    # one dead run (e.g. endpoint dropped) must not lose the finished ones
-            print(f"[run_sweep] FAILED {c.cond} seed={c.seed}: {type(e).__name__}: {str(e)[:120]}", flush=True)
-            return []
+        for attempt in (1, 2):    # one dead run (e.g. endpoint dropped) is retried once, then skipped; finished runs are never lost
+            try:
+                return run(c)
+            except Exception as e:
+                print(f"[run_sweep] FAILED {c.cond} seed={c.seed} (attempt {attempt}): {type(e).__name__}: {str(e)[:120]}", flush=True)
+        return []
     with ThreadPoolExecutor(a.workers) as ex:
         rows = [r for rs in ex.map(safe_run, cfgs) for r in rs]
     write_csv(rows, os.path.join(base["out_dir"], "all_auctions.csv"))
